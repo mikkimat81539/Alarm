@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #002766;
+    overflow: hidden;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.timeInput {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeInput > input {
+    width: 30%;
+    height: 70%;
+}
+
+.AM_PM {
+    display: flex;
+    justify-content: center;
+}
+
+.switch {
+    border: solid 2px rgb(73, 73, 73);
+    border-radius: 5px;
+    width: 30%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    gap: 5px;
+}
+
+.AM {
+    border: solid 2px orange;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.AM_PM > .switch > .AM > button {
+    background-color: orange;
+    border: none;
+    width: 60px;
+    height: 20px;
+    text-align: center; 
+    cursor: pointer;
+    
+}
+
+.PM {
+    border: solid 2px gray;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.AM_PM > .switch > .PM > button {
+    background-color: gray;
+    border: none;
+    width: 60px;
+    height: 20px;
+    text-align: center; 
+    cursor: pointer;
+}
+
+.days {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.days > label {
+    color: white;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.days > ul {
+    display: flex;
+    list-style: none;
+    gap: 3px;
+}
+
+.days > ul > li {
+    cursor: pointer;
+}
+
+.days > ul > li > button {
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    font-size: large;
+    width: 30px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.description {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.description > label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.description > input {
+    padding-left: 3px;
+    width: 30%;
+    height: 65%;
+}
+
+/*
+.sound {
+    width: 100%;
+    height: 15%;
+}
+
+.sound > label {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+.snooze {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.snooze > label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.snooze > input {
+    accent-color: orange;
+    cursor: pointer;
+}
+*/
+
+.createAlarm {
+    padding: 10px;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.createAlarm > button {
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    width: 60px;
+    height: 20px;
+    text-align: center; 
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.createAlarm > .saving {
+    background-color: orange;
+}
+
+.createAlarm > .saving > a {
+    text-decoration: none;
+    color: black;
+}
+
+.createAlarm > .cancel {
+    background-color: white;
+}
+
+.createAlarm > .cancel > a {
+    text-decoration: none;
+    color: black;
+}
+
+.createAlarm > .delete {
+    display: none;
+}

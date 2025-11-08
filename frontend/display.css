@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #002766;
+    overflow: hidden;
+}
+
+.main {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid rgb(20, 120, 221);
+    border-radius: 5px;
+    background-color: rgb(20, 120, 221);
+    width: 30%;
+    height: 55%;
+    position: relative;
+}
+
+.info {
+    width: 90%;
+    height: 50%;
+    position: absolute;
+    top: 35px;
+}
+
+.info > p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+
+.alarm_slider_box {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: solid 2px orange;
+    border-radius: 25px;
+    background-color: orange;
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.circleSlider {
+    border: solid 2px white;
+    border-radius: 50px;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

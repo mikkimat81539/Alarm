@@ -1,0 +1,16 @@
+{
+  "name": "alarm",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Mikaela Matthews",
+  "type": "commonjs",
+  "main": "frontend/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "electron": "^39.1.1"
+  }
+}
