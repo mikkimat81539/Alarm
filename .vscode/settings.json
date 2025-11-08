@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "database": "time",
+            "username": "root",
+            "password": "popcorn81539161790",
+            "connectionTimeout": 30,
+            "name": "Time Input"
+        }
+    ]
+}

@@ -5,9 +5,9 @@
     </head>
 
     <body>
-        <div class="main">
+        <form class="main" id="inputTime">
             <div class="timeInput">
-                <input type="time" id="time">
+                <input type="time" id="write_time">
             </div>
 
             <div class="AM_PM">
@@ -54,14 +54,16 @@
 
             <div class="createAlarm">
                 <button id="deleteBtn" class="delete">Delete</button>
+                
                 <button id="cancelBtn" class="cancel">
                     <a href="index.html">Cancel</a>
                 </button>
-                <button id="saveBtn" class="saving">
+
+                <button type="submit" id="saveBtn" class="saving">
                     <a href="index.html">Save</a>
                 </button>
             </div>
-        </div>
+        </form>
     </body>
 
     <script src="feature.js"></script>

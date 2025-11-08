@@ -8,9 +8,14 @@ const pmBorder = document.getElementById("pm")
 
 const dayBTN = document.querySelectorAll('.btnDay')
 
+const form = document.getElementById("inputTime")
+const writeTime = document.getElementById("write_time")
+
 // Event Listeners
 btnSwitch.addEventListener("click", colorBGToggleAM) 
 btnSwitch.addEventListener("click", colorBGTogglePM)
+
+form.addEventListener("submit", timeData)
 
 // Loop
 dayBTN.forEach(button => {
@@ -49,4 +54,10 @@ function colorDayToggle() {
   } else {
     this.style.backgroundColor = 'orange';
   }
+}
+
+function timeData(e) {
+  e.preventDefault();
+
+  const writeTimeValue = writeTime.value;
 }
