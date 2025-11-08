@@ -18,7 +18,7 @@ body {
     position: relative;
 }
 
- .main > a {
+ .main > button {
     margin: 7px;
     width: 50px;
     height: 50px;
@@ -30,12 +30,14 @@ body {
     right: 0;
     cursor: pointer;
     text-decoration: none;
+    background-color: #002766;
     color: white;
     font-size: 40px;
     font-weight: lighter;
+    border: none;
 }
 
-a:hover {
+button:hover {
     border: solid 5px #003283;
     border-radius: 5px;
     background-color: #003283;
